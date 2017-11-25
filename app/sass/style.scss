@@ -12,6 +12,22 @@ body {
   margin: 0 auto;
   padding: 20px;
 
+  #banner {
+    max-height: 350px;
+    overflow: hidden;
+    margin: 1%;
+    position: relative;
+
+    h2 {
+      position: absolute;
+      top: 30px;
+      margin: 0;
+      width: 100%;
+      text-align: center;
+      color: white;
+    }
+  }
+
   .services {
     overflow: hidden;
     .service {
@@ -51,7 +67,7 @@ body {
   .content {
     padding: 10px;
     //background-color: #ccc;
-    margin: 20px 1%;
+    margin: 10px 1%;
 
     p {
       -webkit-column-count: 3;
