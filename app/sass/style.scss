@@ -36,8 +36,21 @@ body {
 
   .content {
     padding: 10px;
-    background-color: #ccc;
+    //background-color: #ccc;
     margin: 20px 1%;
+
+    p {
+      -webkit-column-count: 3;
+      column-count: 3;
+
+      -webkit-column-gap: 50px;
+      column-gap: 50px;
+
+      -webkit-column-rule: 1px solid #ccc;
+      column-rule: 1px solid #ccc;
+
+      text-align: justify;
+    }
   }
 
   .columns {
