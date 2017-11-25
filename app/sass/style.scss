@@ -36,6 +36,7 @@ nav {
   padding: 20px;
   position: relative;
   z-index: 0;
+  top: 60px;
   #banner {
     max-height: 350px;
     overflow: hidden;
@@ -52,6 +53,7 @@ nav {
   }
 
   .services {
+    max-height: 150px;
     overflow: hidden;
     .service {
       float: left;
