@@ -10,19 +10,32 @@ body {
   margin: 0 auto;
   padding: 20px;
 
-  .service {
-    float: left;
-    background-color: #eee;
-    width: 29.33%;
-    margin: 1%;
-    padding: 1%;
-    height: 140px;
+  .services {
+    .service {
+      float: left;
+      background-color: #eee;
+      width: 29.33%;
+      margin: 1%;
+      padding: 1%;
+      height: 140px;
 
-    h2, p {
-      color: #999;
-      margin: 10px 0;
-      text-align: center;
+      h2, p {
+        color: #999;
+        margin: 10px 0;
+        text-align: center;
+      }
     }
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+
+  .content {
+    padding: 10px;
+    background-color: #ccc;
+    margin-top: 50px;
   }
 
   &:after {
