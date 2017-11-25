@@ -2,6 +2,8 @@
 
 body {
   background-color: #eee;
+  font-family: 'lato', sans-serif;
+  line-height: 1.4em;
 }
 
 .wrapper {
@@ -35,7 +37,23 @@ body {
   .content {
     padding: 10px;
     background-color: #ccc;
-    margin-top: 50px;
+    margin: 20px 1%;
+  }
+
+  .columns {
+    section, aside {
+      float: left;
+      width: 46%;
+      margin: 1%;
+      padding: 1%;
+      background-color: #f2f2f2;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
   }
 
   &:after {
