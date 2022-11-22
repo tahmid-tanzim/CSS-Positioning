@@ -19,7 +19,7 @@
   "homepage": "https://github.com/tahmid-tanzim/CSS-Positioning#readme",
   "devDependencies": {
     "browser-sync": "^2.27.7",
-    "engine.io": ">=4.0.0",
+    "engine.io": ">=6.2.1",
     "glob-parent": ">=5.1.2",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
